@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Scientist Project</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+  <script src='./script.js'></script>
+  <script>
+    function testVariable() {
+        var strText = document.getElementById("favourite").value;          
+        var result = strText ;
+        document.getElementById('spanResult').textContent = result;
+         
+    }
+    function styleMe() {
+      document.getElementById("chg1").style.color = "red";
+      document.getElementById("chg1").style.fontFamily = "Arial";
+      document.getElementById("ch1").style.fontSize = "large";
+    }
+
+</script>
+</head>
+
+<body>
+  <div class="container1">
+    <h1 class="h1_intro">Albert Einstein</h1>
+  </div>
+  <div class="container1">
+    <table>
+      <td class="td_set">
+        <img src="./assets/964.jpg" alt="picture of Albert Einstein in sailboat" height="300px">
+      </td>
+      <td></td>
+      <td class="td_set">
+        <p> <a href="https://en.wikipedia.org/wiki/Albert_Einstein"><span id="spantext">Albert Einstein</span></a>(14 March 1879 – 18 April 1955)</p>
+          <p>A German-born theoretical physicist, widely acknowledged to be one of the greatest physicists of all time. Einstein is best known for developing the theory of relativity, but he also made important contributions to the development of the theory of quantum mechanics. Relativity and quantum mechanics are together the two pillars of modern physics. His mass–energy equivalence formula E = mc2, which arises from relativity theory, has been dubbed "the world's most famous equation". His work is also known for its influence on the philosophy of science. He received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect", a pivotal step in the development of quantum theory. His intellectual achievements and originality resulted in "Einstein" becoming synonymous with "genius".
+        </p>
+      </td>
+    </table>
+  </div>
+
+  <div class="container1" id="chg1">
+    <h2> Upcoming Events:</h2>
+    <div class="container2">
+      <table id="table_events">
+        <tr>
+          <td class="td_set2" width="30%">
+            <img src="./assets/download.jpg" alt="" >
+            <h4>Event: <br>Quantum Theory of Light</h4>
+            <table id="event_items" >
+            <tr>
+              <td>Location:</td>
+              <td>ETH Zürich, Paul-Scherrer-Hörsaal, Zürich CH</td>
+              </tr>
+            <tr>
+              <td>Date: </td><td>April 1, 2022</td>
+            </tr>
+            </table>
+          </td>
+          <td width="5%"></td>
+          <td class="td_set2" width="30%">
+            <img src="./assets/download.jpg" alt="">
+            <h4>Event: <br>Special Theory of Relativity</h4>
+            <table id="event_items">
+              <tr>
+                <td>Location:</td>
+                <td>Perimeter Institute, Skyroom, Waterloo ON</td>
+              </tr>
+              <tr>
+                <td>Date:</td>
+                <td>May 1, 2022</td>
+              </tr>
+            </table>
+          </td>
+          <td width="5%"></td>
+          <td class="td_set2"width="30%">
+            <img src="./assets/download.jpg" alt="">
+            <h4>Event: <br>Wave-Particle Duality</h4>
+            <table id="event_items">
+              <tr>
+                <td>Location:</td>
+                <td>Harvard University, Memorial Hall, Boston MA</td>
+              </tr>
+              <tr>
+                <td>Date:</td>
+                <td>TBD</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+<div id="button1">
+<button onclick="styleMe()">Style Me</button>
+</div>
+
+</div>
+
+</div>
+  <div class="container1">
+    <h2> Articles from <a href="https://en.wikipedia.org/wiki/Annus_Mirabilis_papers"><span style="color: blue; font-style: italic; ">ANNUS MIRABILIS</span></a>:</h2>
+    <div>
+      <table id="table_events">
+        <tr>
+          <td class="td_set3" width="100%">
+            <img id="articles" src="./assets/books.jpg" alt="">
+            <p><h3>Article 1: <br>On a Heuristic Point of View Concerning the Production and Transformation of Light External
+            </h3></p>
+            <p>The first of these four papers is on the photoelectric effect External, where electrons are released when light hits a material. Einstein put forth that light consists of "discrete packets" as opposed to the widely accepted wave theory of light. This later advanced the theory of wave-particle duality in quantum mechanics.</p>
+          </td>
+        </tr>
+        <tr>
+            <td class="td_set3" width="30%">
+            <img id="articles" src="./assets/books.jpg" alt="">
+            <p><h3>Article 2: <br>On the Movement of Small Particles Suspended in Stationary
+              Liquids Required by the Molecular-Kinetic Theory of Heat External</h3></p>
+            <p>The second paper focuses on Brownian motion External, the erratic random movement of microscopic particles in a fluid as they collide. This paper helped to move the theory of atoms into reality by offering a way for scientists to count and observe their behavior during experiments.</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="td_set3"width="30%">
+            <img id="articles" src="./assets/books.jpg" alt="">
+            <p><h3>Article 3: <br>On the Electrodynamics of Moving Bodies External</h3></p>
+            <p>In his third paper of 1905, Einstein argues that the speed of light is fixed and not relative to the observer. "...light is always propagated in empty space with a definite velocity c which is independent of the state of motion of the emitting body," meaning that light travels at the same speed regardless of whether the source is moving or stationary. The Special Theory of Relativity External also theorizes about what happens to objects when they travel near the speed of light (space contracts and time dilates).</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="td_set3"width="30%">
+            <img id="articles" src="./assets/books.jpg" alt="">
+            <p><h3>Article 4: <br>Does the Inertia of a Body Depend Upon its Energy Content? External</h3></p>
+            <p>The fourth paper, on the mass-energy equivalent External gave us what is arguably the most famous equation in history: E=mc2.This equation showed that the energy of a body at rest equals its mass times the speed of light squared. The speed of light, or c, is 299,792,458 meters/second. That is a huge amount of energy that could be released, which would later be confirmed through the advent of nuclear bombs and reactors.</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="container1">
+      <label for="favourite">Input Your Favourite Scientist:</label>
+      <input type="text" id="favourite" name="favourite"> 
+      <button  onclick="testVariable()">+</button> 
+      You typed: <span id="spanResult">  
+
+    </span>
+  </div>
+  
+</body>
+
+</html>
