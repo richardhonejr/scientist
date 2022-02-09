@@ -4,6 +4,11 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body{
+  background-color: lightgray;
+ 
+}
+
 .container1 {
   width: 1200px;
   background-color: #f2f2f2;
